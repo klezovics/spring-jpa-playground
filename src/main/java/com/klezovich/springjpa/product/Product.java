@@ -1,4 +1,4 @@
-package com.klezovich.springjpa.findermethods;
+package com.klezovich.springjpa.product;
 
 import lombok.Builder;
 import lombok.Data;

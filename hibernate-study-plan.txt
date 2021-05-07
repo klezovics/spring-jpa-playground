@@ -26,7 +26,7 @@
   2.5 strategy=GenerationType.TABLE -> Uses a special table to store primary keys
   2.6 Read the details about each strategy in the source code for javax.persistence.GenerationType
 
-3. Spring Data finder methods
+3. Spring Data finder methods (see product package)
    OK, so if you need a finder method to query the data by a specific field, instead
    of implementing it, you can just give it a proper name and spring will generate the code
    for you.
