@@ -1,4 +1,4 @@
-package com.klezovich.springjpa.customhbmtype;
+package com.klezovich.springjpa.advanced.customhbmtype;
 
 import org.hibernate.type.AbstractSingleColumnStandardBasicType;
 import org.hibernate.type.descriptor.sql.VarcharTypeDescriptor;

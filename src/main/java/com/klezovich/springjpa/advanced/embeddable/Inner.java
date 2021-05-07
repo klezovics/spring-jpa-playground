@@ -1,4 +1,4 @@
-package com.klezovich.springjpa.embeddable;
+package com.klezovich.springjpa.advanced.embeddable;
 
 import lombok.Data;
 

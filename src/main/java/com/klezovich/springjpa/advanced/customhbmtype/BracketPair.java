@@ -1,4 +1,4 @@
-package com.klezovich.springjpa.customhbmtype;
+package com.klezovich.springjpa.advanced.customhbmtype;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

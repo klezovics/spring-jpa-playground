@@ -1,4 +1,4 @@
-package com.klezovich.springjpa.customhbmtype;
+package com.klezovich.springjpa.advanced.customhbmtype;
 
 import lombok.Data;
 import org.hibernate.annotations.Type;
@@ -14,6 +14,6 @@ public class ContainerEntity {
     private Long id;
 
     @Column
-    @Type(type="com.klezovich.springjpa.customhbmtype.BracketPairType")
+    @Type(type="com.klezovich.springjpa.advanced.customhbmtype.BracketPairType")
     private BracketPair pair;
 }

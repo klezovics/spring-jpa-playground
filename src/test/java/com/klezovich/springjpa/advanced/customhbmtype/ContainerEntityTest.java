@@ -1,4 +1,4 @@
-package com.klezovich.springjpa.customhbmtype;
+package com.klezovich.springjpa.advanced.customhbmtype;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
