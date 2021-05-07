@@ -49,7 +49,7 @@
 
    https://www.baeldung.com/spring-data-jpa-query
 
-6. Paging and sorting with JPQL
+6. Paging and sorting with JPQL (see product package)
    Look into the relevant chapters here:  https://www.baeldung.com/spring-data-jpa-query
 
 
