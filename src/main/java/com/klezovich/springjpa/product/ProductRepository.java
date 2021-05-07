@@ -1,5 +1,6 @@
 package com.klezovich.springjpa.product;
 
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 
@@ -10,4 +11,7 @@ public interface ProductRepository extends PagingAndSortingRepository<Product, L
     List<Product> findByNameStartingWith(String namePrefix);
 
     List<Product> findByPriceGreaterThan(Integer minPrice);
+
+    @Query(value = "SELECT p FROM Product p where p.name like 'PROD%'")
+    List<Product> findAllGenericProducts();
 }

@@ -68,4 +68,11 @@ class ProductRepositoryTest {
         assertEquals(20,prodList.get(2).getPrice());
     }
 
+    @Test
+    //TO READ: https://www.baeldung.com/spring-data-jpa-query
+    void testJpqlMethods() {
+        var prods = repository.findAllGenericProducts();
+        assertEquals(3,prods.size());
+    }
+
 }
