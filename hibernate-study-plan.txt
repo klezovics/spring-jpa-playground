@@ -34,6 +34,14 @@
    See full reference here: https://www.baeldung.com/spring-data-derived-queries
 
 4. Paging and sorting
+   OK, so sometimes you want to read out your results in pages. Imagine you have 999999GB
+   of data in a specific table. If you read it out all at once JVM will crash with OomError.
+   Therefore, we read out the data in chunk. Each chunk is called a page. A page has a size
+   and a number. You also want to sort your data by one or more fields.
+
+   It is easy to do so with SpringData, just check this out:
+   https://www.baeldung.com/spring-data-jpa-pagination-sorting
+
 5. JPQL
 6. Paging and sorting with JPQL
 7. Native SQL queries
