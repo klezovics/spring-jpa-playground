@@ -1,0 +1,17 @@
+1. Simple CRUD operations
+
+  1.1 Include spring-data & other DB related deps into pom.xml
+  1.2 Create entity
+    1.2.1 @Entity, @Table (optional)
+    1.2.2 @Id
+    1.2.3 @Column (optional)
+  1.3 Create repository
+    1.3.1 @Repository, extends CrudRepository<Type, Id>
+  1.4 Configure datasource spring.datasource.(url|username|password)=XXX
+  1.5 spring.jpa.show-sql=true to see SQL
+  1.6 Create -> repository.save();
+  1.7 Read -> repository.findById();
+  1.8 Update -> read from DB, set fields, call repository.save()
+  1.9 Delete -> repository.delete()
+  1.10 repository.exists() -> check if element exists
+  1.11 repository.count() -> returns the number of records
