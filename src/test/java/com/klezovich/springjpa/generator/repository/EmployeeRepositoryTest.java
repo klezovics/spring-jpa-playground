@@ -13,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 @Slf4j
 //TO READ https://www.baeldung.com/hibernate-identifiers
 //TO READ https://www.baeldung.com/jpa-strategies-when-set-primary-key
+//TO READ Highperformance persistance layer section about ID generation
 class EmployeeRepositoryTest {
 
     @Autowired
@@ -22,7 +23,8 @@ class EmployeeRepositoryTest {
     //The default PK generation strategy is GenerationType.AUTO
     //This forces hibernate on its own, based on the provided DB driver
     //to select an ID generation strategy
-    void testGenerationTypeAuto() {
+    //Other strategies are tested in the same way
+    void testDifferentIdGenerationStrategies() {
         var employee = Employee.builder().name("AK").build();
         repository.save(employee);
 
