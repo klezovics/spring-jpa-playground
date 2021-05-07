@@ -19,10 +19,12 @@
 
 2. Generators - how does Hibernate/DB generate primary keys (see generator package)
   2.1 On the @Id field a @GeneratedValue(strategy=GenerationType.XXX) annotation is placed
-  2.2 strategy=GenerationType.AUTO -> use one of the below strategies, Hibernate figures this out
-  2.3 strategy=GenerationType.IDENTITY -> depends on PrimaryKey - auto-increment
+  2.2 strategy=GenerationType.AUTO -> When you use the GenerationType.AUTO,
+  Hibernate selects the generation strategy (from the ones below) based on the Hibernate dialect
+  2.3 strategy=GenerationType.IDENTITY -> In the SQL schema the PRIMARY KEY attribute must be configured with auto-increment option
   2.4 strategy=GenerationType.SEQUENCE -> creates a sequence in DB and uses it to get primary key
   2.5 strategy=GenerationType.TABLE -> Uses a special table to store primary keys
+  2.6 Read the details about each strategy in the source code for javax.persistence.GenerationType
 
 3. Spring Data finder methods
 4. Paging and sorting
