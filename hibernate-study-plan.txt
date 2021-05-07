@@ -1,4 +1,4 @@
-1. Simple CRUD operations
+1. Simple CRUD operations (see simpleentity package)
 
   1.1 Include spring-data & other DB related deps into pom.xml
   1.2 Create entity
