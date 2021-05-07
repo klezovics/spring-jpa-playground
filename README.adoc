@@ -1,2 +1,5 @@
 This is a project for experimenting with and benchmarking various
 JPA/JDBC/DB persistance layer things.
+
+1) Here's how you run MySQL using the provided docker-compose.sql file
+https://medium.com/@chrischuck35/how-to-create-a-mysql-instance-with-docker-compose-1598f3cc1bee
