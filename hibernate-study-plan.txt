@@ -45,8 +45,14 @@
 5. JPQL (see product package)
    Instead of writing ugly SQL queries you can write sexier JPQL queries.
    Its just syntactic sugar over SQL for java developers.
+   You use the @Query annotation to do it
 
    https://www.baeldung.com/spring-data-jpa-query
 
 6. Paging and sorting with JPQL
-7. Native SQL queries
+   Look into the relevant chapters here:  https://www.baeldung.com/spring-data-jpa-query
+
+
+7. Native SQL queries (see product package)
+   You can also run native SQL queries instead of JPQL queries
+   https://www.baeldung.com/spring-data-jpa-query#2-native

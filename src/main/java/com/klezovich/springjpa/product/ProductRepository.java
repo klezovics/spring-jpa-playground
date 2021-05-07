@@ -14,4 +14,7 @@ public interface ProductRepository extends PagingAndSortingRepository<Product, L
 
     @Query(value = "SELECT p FROM Product p where p.name like 'PROD%'")
     List<Product> findAllGenericProducts();
+
+    @Query(value = "SELECT * FROM product p where p.price=1000", nativeQuery = true)
+    List<Product> findProductsThatCost1000();
 }
