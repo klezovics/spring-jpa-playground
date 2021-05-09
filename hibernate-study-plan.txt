@@ -56,3 +56,45 @@
 7. Native SQL queries (see product package)
    You can also run native SQL queries instead of JPQL queries
    https://www.baeldung.com/spring-data-jpa-query#2-native
+
+8. Inheritance mapping (see animal package)
+  8.1 Single table -> base classes and all child classes go into single table, which contains all fields
+  An extra diffirentiator column MUST be available to store the class, which was stored.
+
+    8.1.1 @Inheritance, @DiscriminatorColumn, @DiscriminatorValue
+
+  8.2 Table per class -> base class and subclasses must be stored each in a separate table
+    8.2.1 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
+
+  8.3 Joined -> Base fields are stored in base class table, child fields are stored in child tables
+     8.2.2 @Inheritance(strategy = InheritanceType.JOINED), @PrimaryKeyJoinColumn(name="id")
+
+  8.4 Extra info is here: https://www.baeldung.com/hibernate-inheritance
+
+
+9. Component mapping (see animal package)
+  Let's say you have an Employee class, which has-a Adress object inside.
+  You want to store the Adress object's field values in the employee table.
+  Basically, to flatten a nested object.
+
+  @Embedded, @Embeddable
+
+
+10. Relationships in Hibernate
+    Our entities are connected to each other in Java, via having reference to each other.
+    The same must be reflected in the DB. This is done using association mapping.
+
+    10.1 @OneToMany
+    10.2 @ManyToOne
+    10.3 @ManyToMany
+    10.4 @OneToOne
+
+11. Hibernate caching mechanism
+12. Transaction management
+13. Save and retrieve files
+14. Calling stored procedures
+15. Working with MongoDB
+16. Composite primary keys
+17. Connect to multiple databases
+
+
