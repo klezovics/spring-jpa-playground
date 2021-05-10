@@ -18,6 +18,10 @@
 1. What's the difference between a persistent and a transient object ?
 2. What's the responsibility of the Session class/interface ?
 3. What's the responsibility of the SessionFactory interface ?
+4. What's the responsibility of the hibernate Configuration inteface ?
+5. What does the Transaction class/interface do ?
+6. What does the Query class/interface do ?
+7. How does the first-level cache and second-level cache do ?
 
 == Mapping classes with only primitives ==
 1. What does the @Entity annotation do ?
