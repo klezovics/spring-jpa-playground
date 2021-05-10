@@ -12,6 +12,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @AllArgsConstructor
 
+//So beautiful and simple when you don't need to setup mappings
 @Entity
 public class Post {
 

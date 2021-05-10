@@ -20,6 +20,7 @@ public class Post1 {
     private long id;
     private String text;
 
+    //TODO How to change this to LAZY without breaking anything
     @OneToMany(mappedBy = "post",cascade = CascadeType.ALL,fetch = FetchType.EAGER)
     private Set<Comment> comments;
 
