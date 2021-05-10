@@ -31,6 +31,12 @@ What does each value do ?
 4. What does the @Table annotation do ?
 5. What does the @Column annotation do ?
 
+== Entity states ==
+1. In which states can a mepped entity class be ?
+2. What is the transient state ?
+3. What is the persistent state ?
+4. What is the detached state ?
+
 == has-a relationship mapping ==
 1. Which annotations are used for has-a relationship mapping ?
 2. What does @Embeddable annotation do ?
