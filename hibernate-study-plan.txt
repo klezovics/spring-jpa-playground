@@ -80,7 +80,7 @@
   @Embedded, @Embeddable
 
 
-10. Relationships in Hibernate
+10. Relationships in Hibernate (see relationships package)
     Our entities are connected to each other in Java, via having reference to each other.
     The same must be reflected in the DB. This is done using association mapping.
 
