@@ -98,3 +98,7 @@
 17. Connect to multiple databases
 
 
+== Bonus section ==
+
+1. Loading initial schema and DB data with Spring Boot: https://www.baeldung.com/spring-boot-data-sql-and-schema-sql
+
