@@ -1,0 +1,73 @@
+== General ==
+
+1. What is Hibernate ?
+2. What is JPA ?
+3. What's the difference between JPA and Hibernate ?
+4. What is ORM ?
+5. In which year was Hibernate created ?
+6. What is the current most recent version of Hibernate ?
+7. Which version of Hibernate is bundled with latest release of Spring data ?
+8. What other JPA implementations exists ?
+9. Where can you find official documentation for JPA ?
+10. Where can you find official documentation for Hibernate ?
+11. Why is Hibernate better than JDBC ?
+12. Which Jars are included when you include the hibernate dependency into pom.xml ?
+13. Does Hibernate use JDBC for connecting to the DB ?
+
+== Architecture ==
+1. What's the difference between a persistent and a transient object ?
+2. What's the responsibility of the Session class/interface ?
+3. What's the responsibility of the SessionFactory interface ?
+
+== Mapping classes with only primitives ==
+1. What does the @Entity annotation do ?
+2. What does the @Id annotation do ?
+3. What does the @GeneratedValue annotation do ? What are the options for its strategy agument?
+What does each value do ?
+4. What does the @Table annotation do ?
+5. What does the @Column annotation do ?
+
+== has-a relationship mapping ==
+1. Which annotations are used for has-a relationship mapping ?
+2. What does @Embeddable annotation do ?
+3. What does @Embedded annotation do ?
+
+== is-a relationship mapping (inheritance) ==
+1. What does the @Inheritance annotation do ?
+2. What kind of strategies does @Inheritance annotation support ?
+3. How does the DB layout look for every @Inheritance annotation strategy ?
+
+
+== Relationship mapping ==
+1. What kind of relationships can there be between entities ?
+2. How does each relationship look like in Java object world ?
+3. How does each relationship look like in DB ?
+4. How does @OneToMany work ? What about @ManyToOne ?
+5. What does the @JoinColumn annotation do ? How can you configure it ? What does each argument mean ?
+6. How does the @ManyToMany annotation work ?
+7. How does the @JoinTable annotation work ? What are its possible arguments ?
+8. What's the difference between a uni-directional vs a bidirectional relationship ? Pros and cons of each ?
+
+== Cascading ==
+1. What is cascading ? How does it work ?
+2. For which operations can you apply cascading ?
+
+== Lazy vs Eager fetching ==
+1. What is lazy fetch ?
+2. What is eager fetch ?
+3. What's the difference between them ? How do you configure each ?
+
+== Caching ==
+1. How does Hibernate implement caching ?
+
+== Transactions ==
+1. How does Hibernate implement transactions ?
+
+== Annotations ==
+1. Name the key Hibernate annotations
+
+== Bonus ==
+1. What is the N+1 problem in ORM ?
+2. How do you keep the code in your persistance layer highly performant ?
+3. How do you test your hibernate code with H2 ?
+4. How do you test your hibernate code with a real DB using testcontainers ?
