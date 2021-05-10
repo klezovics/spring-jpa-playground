@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @DataJpaTest
 @Transactional(propagation = Propagation.NOT_SUPPORTED)
-class PostRepositoryTest {
+class Post1RepositoryTest {
 
     @Autowired
     private PostRepository repository;
