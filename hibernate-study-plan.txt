@@ -48,6 +48,7 @@
    You use the @Query annotation to do it
 
    https://www.baeldung.com/spring-data-jpa-query
+   Also, see different query types: https://www.baeldung.com/jpa-queries
 
 6. Paging and sorting with JPQL (see product package)
    Look into the relevant chapters here:  https://www.baeldung.com/spring-data-jpa-query
