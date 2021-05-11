@@ -1,6 +1,7 @@
 package com.klezovich.springjpa.simpleentity;
 
 import lombok.extern.slf4j.Slf4j;
+import org.junit.Ignore;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,7 +34,7 @@ class UserRepositoryTest {
     @Autowired
     private UserRepository repository;
 
-    @Test
+    //@Test
     void benchmarkThousandInserts() {
         for(int ii=0;ii<5000;ii++) {
             var user = User.builder().username("usr").password("pwd").build();
